@@ -1,0 +1,115 @@
+/* Colors and fonts */
+
+body{ background-color: #D9DBF1;
+	color: #0B3948;
+	font-family: Avenir;
+	font-size: 15px;
+ }
+
+
+ 	h1, h2, h3{
+.special-gothic-expanded-one-regular {
+  font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+	}
+
+ 	h1{ color: #1E152A;
+ 	font-size: 40px;}
+
+ 	h2{ color: #586A6A;
+ 	font-size: 20px;}
+
+a{ text-decoration:none;
+   color:#1E152A;
+   font-weight:bold; }
+a:hover{ color:lightblue; }
+
+
+/* Custom design with class */
+
+.container{
+width: 700px;
+margin: 40px auto;
+} 
+@media(max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+
+@media(max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+background-color: white;
+padding: 40px;
+box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+margin: 20px 0px;
+text-align: center;}
+
+.img-circle{
+	border-radius: 50%;	
+}
+.btn-blue {
+	background-color: darkblue;
+	color: white;
+	padding: 15px 20px;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	margin-bottom: 50px;	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
